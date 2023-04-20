@@ -1,0 +1,105 @@
+body{
+    background-image:url("https://t4.ftcdn.net/jpg/05/49/86/39/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    color:rgb(225, 231, 235);
+    text-decoration: underline;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+   color:rgb(0, 0, 0);
+   font-weight: bold;
+   align-items: center;
+   justify-content: center;
+}
+h3{
+   color:rgb(104, 125, 138);
+   font-weight: bold;
+   align-items: center;
+   justify-content: center;
+}
+p{
+    color:rgb(225, 231, 235);
+    align-items: center;
+    justify-content: center;
+}
+.App {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+.quote {
+    background-color:rgba(255, 255, 255, 0.438);
+    width: 650px;
+    height: 290px;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote h2 {
+    font-size: 1.75em;
+    font-family: noto;
+}
+.quote small {
+    color:rgb(11, 45, 69);
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+.btn {
+    background-color: rgba(255, 255, 255, 0.438);
+	display: block;
+	border: 2px solid rgb(11, 45, 69);
+	padding: 10px 15px;
+	color: rgb(11, 45, 69);
+	font-size: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+	transition: rgb(11,45,69);
+    font-weight: bold;
+}
+.sh {
+    background-color: rgba(255, 255, 255, 0.438);
+	display: block;
+	border: 2px solid rgb(11, 45, 69);
+	padding: 10px 15px;
+	color: rgb(11, 45, 69);
+	font-size: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+	transition: rgb(11,45,69);
+    font-weight: bold;
+}
+.btn:hover{
+	background: #008CBA;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.share-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.share-button a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+
+}
+.share button a.share-facebook{
+    background-color: aliceblue;
+}
+.author
+{
+    top: 20%;
+}
